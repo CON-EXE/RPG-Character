@@ -1,6 +1,6 @@
 ﻿namespace RPG_Character {
     public class GameWorld {
-        public Character Player { get; set; }
+        public ICharacter Player { get; set; }
 
         public void CreateCharacter() {
             if (Player == null) {

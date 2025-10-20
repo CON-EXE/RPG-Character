@@ -12,6 +12,7 @@
         public virtual int Defense => _character.Defense;
         public virtual int Intelligence => _character.Intelligence;
         public virtual int Agility => _character.Agility;
+        public virtual int MoveSpeed => _character.MoveSpeed;
 
         public virtual void DisplayInfo() => _character.DisplayInfo();
     }

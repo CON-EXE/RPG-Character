@@ -2,7 +2,14 @@
 {
     internal class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Hello, World!");
+            GameWorld game = new GameWorld();
+            game.CreateCharacter();
+
+            BootsDecorator boots = new BootsDecorator(game.Player);
+            boots.Preview();
+
+            game.Player = boots;
+            boots.DisplayChange();
         }
     }
 }

@@ -6,6 +6,7 @@
         int Defense { get; }
         int Intelligence { get; }
         int Agility { get; }
+        int MoveSpeed { get; }
         void DisplayInfo();
     }
 }
