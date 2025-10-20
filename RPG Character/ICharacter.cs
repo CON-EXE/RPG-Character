@@ -7,6 +7,8 @@
         int Intelligence { get; }
         int Agility { get; }
         int MoveSpeed { get; }
+        int Level { get; }
         void DisplayInfo();
+        void LevelUp();
     }
 }
