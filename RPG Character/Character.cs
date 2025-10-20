@@ -15,6 +15,7 @@
 
         public void DisplayInfo() {
             Console.WriteLine($"Name: {Name}");
+            Console.WriteLine($"Level: {Level}");
             Console.WriteLine($"Health: {Health}");
             Console.WriteLine($"Attack: {Attack}");
             Console.WriteLine($"Defense: {Defense}");
@@ -24,6 +25,8 @@
         }
 
         public void LevelUp() {
+            Level++;
+
             bool selected = false;
                 Console.WriteLine("You Leveled up!");
                 Console.WriteLine("1. Health");

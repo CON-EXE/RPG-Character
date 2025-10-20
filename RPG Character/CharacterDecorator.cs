@@ -13,7 +13,9 @@
         public virtual int Intelligence => _character.Intelligence;
         public virtual int Agility => _character.Agility;
         public virtual int MoveSpeed => _character.MoveSpeed;
+        public virtual int Level => _character.Level;
 
         public virtual void DisplayInfo() => _character.DisplayInfo();
+        public virtual void LevelUp() => _character.LevelUp();
     }
 }

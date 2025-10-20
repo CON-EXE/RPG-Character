@@ -7,8 +7,8 @@
         public override int Intelligence => _character.Intelligence + Increase;
 
         public void Preview() {
-            Console.WriteLine("Hermes Boots");
-            Console.WriteLine($"Move Speed +{Increase}");
+            Console.WriteLine("Silk Robe");
+            Console.WriteLine($"Intelligence +{Increase}");
         }
 
         public void DisplayChange() {
